@@ -11,6 +11,7 @@
 4. [Project Closure](#project-closure)
 5. [Conclusion](#conclusion)
 6. [Additional Notes](#additional-notes)
+7. [Working Demonstration](#Working-Demonstration)
 
 
 ### **1. Introduction<a name="introduction"></a>**
@@ -131,6 +132,31 @@ By following this documentation, you have successfully deployed Passbolt on AWS,
 - For detailed instructions and troubleshooting tips, refer to the official Passbolt documentation and AWS documentation.
 - Regularly back up Passbolt data to prevent data loss.
 - Monitor AWS billing to avoid unexpected charges, especially if you have enabled additional services or resources.
+
+### **7. Working Demonstration:<a name="Working-Demonstration"></a>>**
+
+1. Navigate to the desired website (e.g., TalentLMS) where you intend to store your credentials.
+
+
+![image](https://github.com/ijlal321/Cyber-Security-Projects/assets/103317626/7e05bd69-3837-427f-816e-90781577d48a)
+
+
+2. Choose the option to create a new credential. Enter the Name, Username, and Password according to your preferences, then save the credentials.
+
+
+![image](https://github.com/ijlal321/Cyber-Security-Projects/assets/103317626/3e68a09e-f593-4d8e-8e7f-1996efe81174)
+
+
+![image](https://github.com/ijlal321/Cyber-Security-Projects/assets/103317626/1c76f034-852d-4ded-8319-92f9aa7df3bd)
+
+
+3. Verify your identity by entering your passphrase.
+
+4. Congratulations! Your password has been successfully saved. You will automatically login next time you visit your website.
+
+
+![image](https://github.com/ijlal321/Cyber-Security-Projects/assets/103317626/f86e8a31-dc85-4e66-a5fa-55fe318ce58f)
+
 
 
 This documentation provides a comprehensive guide for deploying Passbolt on AWS, ensuring secure communication, and properly closing the project to avoid unnecessary costs. Adjustments can be made based on specific requirements or preferences during implementation.
