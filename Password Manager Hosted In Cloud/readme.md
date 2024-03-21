@@ -18,7 +18,7 @@
 This document provides a detailed guide on deploying Passbolt, an open-source password manager, on Amazon Web Services (AWS). The deployment includes setting up Passbolt on an EC2 instance, configuring HTTPS for secure communication, connecting the instance to an Ubuntu machine, and finally, cleaning up AWS resources to avoid unnecessary charges.
 
 
-### **2. Prerequisites**
+### **2. Prerequisites<a name="prerequisites"></a>**
 
 Before starting the deployment process, ensure you have the following prerequisites:
 
@@ -27,10 +27,10 @@ Before starting the deployment process, ensure you have the following prerequisi
 - (Optional) A domain name from a registrar like Namecheap for SSL configuration and accessibility.
 
 
-### **3. Deployment Steps**
+### **3. Deployment Steps<a name="deployment-steps"></a>**
 Certainly! Here's the improved formatting of the section "3.1 Setting Up Passbolt on AWS":
 
-### **3.1 Setting Up Passbolt on AWS**
+### **3.1 Setting Up Passbolt on AWS<a name="setting-up-passbolt-on-aws"></a>**
 
 1. Visit the Passbolt official website and navigate to the AWS section under Getting Started.
 
@@ -82,7 +82,7 @@ Certainly! Here's the improved formatting of the section "3.1 Setting Up Passbol
 
 6. Launch the EC2 instance and wait for it to initialize.
 
-#### **3.2 Configuring HTTPS for Secure Communication (Optional)**
+#### **3.2 Configuring HTTPS for Secure Communication (Optional<a name="configuring-https-for-secure-communication-optional"></a>)**
 
 1. Access the EC2 instance using its public IPv4 address (Put IPv4 in a new Tab). You will reach this page.
 
@@ -96,7 +96,7 @@ Now we have everything set up and ready to configrure.
 ![image](https://github.com/ijlal321/Cyber-Security-Projects/assets/103317626/00b87c77-2167-40c5-a817-9eb57b749382)
 
 
-#### **3.3 Passbolt Configuration**
+#### **3.3 Passbolt Configuration<a name="passbolt-configuration"></a>**
 
 1. Start the Passbolt configuration from the web interface.
 2. Enter the server name, email, and skip SMTB configuration (if not needed).
@@ -111,7 +111,7 @@ Now we have everything set up and ready to configrure.
 5. Use Entension to Autofill your passwords.
 
 
-### **4. Project Closure**
+### **4. Project Closure<a name="project-closure"></a>**
 
 To avoid unnecessary charges, it's crucial to clean up AWS resources after completing the project. Follow these steps:
 
@@ -121,12 +121,12 @@ To avoid unnecessary charges, it's crucial to clean up AWS resources after compl
 4. Ensure all associated resources (e.g., security groups, key pairs) are also deleted or disassociated.
 
 
-### **5. Conclusion**
+### **5. Conclusion<a name="conclusion"></a>**
 
 By following this documentation, you have successfully deployed Passbolt on AWS, configured HTTPS for secure communication, and managed the Passbolt configuration. Remember to regularly update and maintain your Passbolt instance for optimal security and performance.
 
 
-### **6. Additional Notes:**
+### **6. Additional Notes:<a name="additional-notes"></a>**
 
 - For detailed instructions and troubleshooting tips, refer to the official Passbolt documentation and AWS documentation.
 - Regularly back up Passbolt data to prevent data loss.
