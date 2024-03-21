@@ -29,7 +29,6 @@ Before starting the deployment process, ensure you have the following prerequisi
 
 
 ### **3. Deployment Steps<a name="deployment-steps"></a>**
-Certainly! Here's the improved formatting of the section "3.1 Setting Up Passbolt on AWS":
 
 ### **3.1 Setting Up Passbolt on AWS<a name="setting-up-passbolt-on-aws"></a>**
 
