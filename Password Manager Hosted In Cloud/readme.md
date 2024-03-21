@@ -6,7 +6,7 @@
 2. [Prerequisites](#prerequisites)
 3. [Deployment Steps](#deployment-steps)
    - [3.1 Setting Up Passbolt on AWS](#setting-up-passbolt-on-aws)
-   - [3.2 Configuring HTTPS for Secure Communication (Optional)](#configuring-https-for-secure-communication-optional)
+   - [3.2 Configuring SSH and Domain for Secure Communication (Optional)](#configuring-https-for-secure-communication-optional)
    - [3.3 Passbolt Configuration](#passbolt-configuration)
 4. [Project Closure](#project-closure)
 5. [Conclusion](#conclusion)
