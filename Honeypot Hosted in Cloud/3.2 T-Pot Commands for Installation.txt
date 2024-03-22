@@ -1,0 +1,6 @@
+sudo apt update
+sudo apt upgrade -y
+sudo apt install git
+sudo git clone https://github.com/telekom-security/tpotce
+sudo cd tpotce/iso/installer/
+sudo ./install.sh --type=user
