@@ -1,5 +1,36 @@
 # Documentation: Setting Up a Honeypot on Azure Using PuTTY and T-Pot
 
+# Table of Contents
+- [Documentation: Setting Up a Honeypot on Azure Using PuTTY and T-Pot](#documentation-setting-up-a-honeypot-on-azure-using-putty-and-t-pot)
+  - [Prerequisites](#prerequisites)
+  - [Step 1: Create VM on Azure](#step-1-create-vm-on-azure)
+    - [1.1 Create New Resource Group](#11-create-new-resource-group)
+    - [1.2 Configure VM Settings](#12-configure-vm-settings)
+    - [1.3 Authentication Type](#13-authentication-type)
+    - [1.4 Disks Options](#14-disks-options)
+    - [1.5 Networking Section](#15-networking-section)
+    - [1.6 Management Section](#16-management-section)
+    - [1.7 Review and Create](#17-review-and-create)
+  - [Step 2: Configure Azure VM](#step-2-configure-azure-vm)
+    - [2.1 Open All Ports](#21-open-all-ports)
+  - [Step 3: Generate SSH Key Pair with PuTTYgen](#step-3-generate-ssh-key-pair-with-puttygen)
+    - [3.1 Open PuTTYgen](#31-open-puttygen)
+  - [Step 4: Connect to Azure VM Using PuTTY](#step-4-connect-to-azure-vm-using-putty)
+    - [4.1 Find VM IP Address](#41-find-vm-ip-address)
+    - [4.2 Configure PuTTY](#42-configure-putty)
+    - [4.3 Connect to VM](#43-connect-to-vm)
+  - [Step 5: Install T-Pot Honeypot](#step-5-install-t-pot-honeypot)
+    - [5.1 Clone T-Pot Repository](#51-clone-t-pot-repository)
+    - [5.2 Run T-Pot Installer](#52-run-t-pot-installer)
+  - [Step 6: Access T-Pot Dashboard](#step-6-access-t-pot-dashboard)
+    - [6.1 Open Browser](#61-open-browser)
+  - [Demonstration](#demonstration)
+    - [Attack Map](#attack-map)
+    - [Elasticvue](#elasticvue)
+    - [Dashboards](#dashboards)
+    - [T-pot Dashboard](#t-pot-dashboard)
+
+
 ## Prerequisites
 1. Azure account
 2. PuTTY installed on your local machine
