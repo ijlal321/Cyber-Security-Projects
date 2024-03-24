@@ -20,7 +20,7 @@
   - [Access Microsoft Sentinel](#access-microsoft-sentinel)
   - [Exploration Microsoft Sentinel](#exploration-microsoft-sentinel)
     - [Overview and System Status](#1-overview-and-system-status)
-    - [Data Analysis using KQL](#1-data-analysis-using-kql)
+    - [Data Analysis using KQL](#2-data-analysis-using-kql)
     - [Data Connectors](#3-data-connectors)
     - [Analytics](#4-analytics)
 - [Conclusion and Next Steps](#conclusion-and-next-steps)
