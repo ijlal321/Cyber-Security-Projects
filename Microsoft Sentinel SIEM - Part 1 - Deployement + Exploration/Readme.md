@@ -6,7 +6,7 @@
   - [Prerequisites](#prerequisites)
   - [Deployment Steps](#deployment-steps)
     - [Access GitHub Template](#Access-Github-Template)
-    - [Azure Portal Deployment](#azure-portal-deployment)
+    - [Azure Portal Deployment](#Azure-Portal-Deployment)
     - [Configuring Settings](#configuring-settings)
     - [Configuring Content Hub](#configuring-content-hub)
     - [Configuring Data Connector](#configuring-data-connector)
@@ -23,7 +23,7 @@
     - [Data Analysis using KQL](#data-analysis-using-kql)
     - [Data Connectors](#data-connectors)
     - [Analytics](#analytics)
-  - [Conclusion and Next Steps](#conclusion-and-next-steps)
+- [Conclusion and Next Steps](#conclusion-and-next-steps)
 
 
 ## Part 1: Deployment and Configuration
