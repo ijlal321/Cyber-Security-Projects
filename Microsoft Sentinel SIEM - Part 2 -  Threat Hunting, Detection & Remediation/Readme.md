@@ -9,6 +9,7 @@
 6. [Exploring Created Cybersecurity Incidents in SIEM](#6-exploring-created-cybersecurity-incidents-in-siem)
 7. [How to Investigate Cybersecurity Incidents in SIEM](#7-how-to-investigate-cybersecurity-incidents-in-siem)
 8. [Remediate Cybersecurity Incident](#8-remediate-cybersecurity-incident)
+9. [Conclusion](Conclusion)
 
 
 
@@ -265,6 +266,6 @@ Remediating cybersecurity incidents is crucial to mitigate risks and restore the
      - Comments added during incident closure for transparency and reference.
 
 
-## Conslusion
+## Conclusion
 
 In conclusion, the implementation of advanced security measures in SIEM has significantly enhanced our threat detection and incident response capabilities. By leveraging Artificial Intelligence, creating custom watchlists, and developing tailored detection rules, we have improved our ability to proactively identify cybersecurity threats and respond effectively to incidents. The integration of Azure for SIEM investigation further strengthens our security posture by providing a comprehensive platform for monitoring and remediation. This project underscores the importance of continuous improvement and innovation in cybersecurity practices to mitigate risks and protect sensitive assets.
