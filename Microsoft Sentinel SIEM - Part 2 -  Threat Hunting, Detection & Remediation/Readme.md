@@ -1,5 +1,10 @@
 # Part 2: Demonstrating Cybersecurity Operations in SIEM
 
+## Introduction
+
+Welcome to the second part of our cybersecurity project, where we delve into the intricate workings of Security Information and Event Management (SIEM) systems. In this phase, we will explore advanced techniques and operations within SIEM to enhance our cybersecurity posture. From enabling Artificial Intelligence (AI) to creating custom detection rules and conducting thorough incident investigations, we aim to showcase the power and effectiveness of SIEM in safeguarding against modern cybersecurity threats. Join us on this journey as we demonstrate real-world scenarios and best practices for cybersecurity operations in SIEM.
+
+
 ## Table of Contents
 1. [Enable Artificial Intelligence in SIEM](#1-enable-artificial-intelligence-in-siem)
 2. [Create Watchlist to Detect Cybersecurity Threats](#2-create-watchlist-to-detect-cybersecurity-threats)
@@ -9,8 +14,7 @@
 6. [Exploring Created Cybersecurity Incidents in SIEM](#6-exploring-created-cybersecurity-incidents-in-siem)
 7. [How to Investigate Cybersecurity Incidents in SIEM](#7-how-to-investigate-cybersecurity-incidents-in-siem)
 8. [Remediate Cybersecurity Incident](#8-remediate-cybersecurity-incident)
-9. [Conclusion](Conclusion)
-
+9. [Conclusion](#conclusion)
 
 
 ## 1. Enable Artificial Intelligence in SIEM
