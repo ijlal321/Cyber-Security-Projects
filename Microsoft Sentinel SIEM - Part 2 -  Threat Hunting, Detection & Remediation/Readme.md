@@ -1,5 +1,18 @@
+# Part 2: Demonstrating Cybersecurity Operations in SIEM
 
-## 1. Demo: Enable Artificial Intelligence in SIEM
+## Table of Contents
+1. [Enable Artificial Intelligence in SIEM](#1-enable-artificial-intelligence-in-siem)
+2. [Create Watchlist to Detect Cybersecurity Threats](#2-create-watchlist-to-detect-cybersecurity-threats)
+3. [Create Detection Rule for Cybersecurity Threat](#3-create-detection-rule-for-cybersecurity-threat)
+4. [Create User Account in Azure for SIEM Investigation](#4-create-user-account-in-azure-for-siem-investigation)
+5. [Infiltrating User Account to Generate Incidents in SIEM](#5-infiltrating-user-account-to-generate-incidents-in-siem)
+6. [Exploring Created Cybersecurity Incidents in SIEM](#6-exploring-created-cybersecurity-incidents-in-siem)
+7. [How to Investigate Cybersecurity Incidents in SIEM](#7-how-to-investigate-cybersecurity-incidents-in-siem)
+8. [Remediate Cybersecurity Incident](#8-remediate-cybersecurity-incident)
+
+
+
+## 1. Enable Artificial Intelligence in SIEM
 
 In this demonstration, we will enable Artificial Intelligence (AI) features in Microsoft Sentinel to detect unusual behaviors within our system. This functionality enhances the capability of our SIEM to proactively identify potential cybersecurity threats.
 
@@ -28,11 +41,7 @@ In this demonstration, we will enable Artificial Intelligence (AI) features in M
 
 
 
-
-Here's the documentation section for creating a watchlist to detect cybersecurity threats in Microsoft Sentinel based on your provided steps:
-
-
-## 2. Demo: Create Watchlist to Detect Cybersecurity Threats
+## 2. Create Watchlist to Detect Cybersecurity Threats
 
 In this demonstration, we will create a watchlist in Microsoft Sentinel to monitor Tor exit nodes' IP addresses, enhancing our ability to detect cybersecurity threats associated with Tor network usage.
 
@@ -72,13 +81,7 @@ In this demonstration, we will create a watchlist in Microsoft Sentinel to monit
 
 
 
-
-
-
-Here's the documentation section for creating a detection rule for cybersecurity threats in Microsoft Sentinel based on your provided steps:
-
-
-## 3. Demo: Create Detection Rule for Cybersecurity Threat
+## 3. Create Detection Rule for Cybersecurity Threat
 
 In this demonstration, we will create a detection rule in Microsoft Sentinel to monitor threats originating from the Tor network. This rule will leverage the watchlist we previously created to enhance threat detection capabilities.
 
@@ -130,10 +133,7 @@ In this demonstration, we will create a detection rule in Microsoft Sentinel to 
 ![image](https://github.com/ijlal321/Cyber-Security-Projects/assets/103317626/cbab47b6-3891-459a-9a4a-ebc64a298490)
 
 
-
-Here's the documentation section for creating a user account in Azure for SIEM investigation based on your provided steps:
-
-## 4. Demo: Create User Account in Azure for SIEM Investigation
+## 4. Create User Account in Azure for SIEM Investigation
 
 ### Introduction
 In this demonstration, we will create a new user account in the Azure environment specifically for SIEM investigation purposes. This account will be used to simulate unusual activity for testing and analysis within Microsoft Sentinel.
@@ -183,11 +183,11 @@ In this demonstration, we will create a new user account in the Azure environmen
 By following these steps, you have successfully created a user account in Azure dedicated to SIEM investigation in Microsoft Sentinel. This account can be used to simulate unusual activity for testing and security analysis purposes.
 
 
-## 5. Demo Infiltrating User Account to Generate Incidents in SIEM 
+## 5. Infiltrating User Account to Generate Incidents in SIEM 
 Once you got log in, you can do some infiltrations in your own, make some changes, and we will discuss tits impact on next section.
 
 
-## 6. Demo Infiltrating User Account to Generate Incidents in SIEM 
+## 6. Exploring Created Cybersecurity Incidents in SIEM 
     - Right off the bat ,we see we have about 17 new incidents, lets explore them.
 ![image](https://github.com/ijlal321/Cyber-Security-Projects/assets/103317626/7c164693-dc63-49cd-a8e8-021968d75b24)
 
@@ -195,10 +195,7 @@ Once you got log in, you can do some infiltrations in your own, make some change
 
 ![image](https://github.com/ijlal321/Cyber-Security-Projects/assets/103317626/435a7e47-fb0b-4987-8a68-5b6f2e7f7adf)
 
-
-Sure, I'll create documentation based on the information you provided in your rough notes regarding cybersecurity incident investigation in a SIEM.
-
-## 7. Demo: How to Investigate Cybersecurity Incidents in SIEM
+## 7. How to Investigate Cybersecurity Incidents in SIEM
 
 This section outlines the steps to investigate cybersecurity incidents within a SIEM (Security Information and Event Management) system. Effective investigation is crucial for understanding the nature of incidents and identifying potential threats.
 
@@ -268,3 +265,6 @@ Remediating cybersecurity incidents is crucial to mitigate risks and restore the
      - Comments added during incident closure for transparency and reference.
 
 
+## Conslusion
+
+In conclusion, the implementation of advanced security measures in SIEM has significantly enhanced our threat detection and incident response capabilities. By leveraging Artificial Intelligence, creating custom watchlists, and developing tailored detection rules, we have improved our ability to proactively identify cybersecurity threats and respond effectively to incidents. The integration of Azure for SIEM investigation further strengthens our security posture by providing a comprehensive platform for monitoring and remediation. This project underscores the importance of continuous improvement and innovation in cybersecurity practices to mitigate risks and protect sensitive assets.
