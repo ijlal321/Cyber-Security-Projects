@@ -110,22 +110,161 @@ In this demonstration, we will create a detection rule in Microsoft Sentinel to 
    - The key point is that 50126 specifically represents failed sign-in attempts due to invalid user credentials .
      
 
-7. **Configure Entities:**
+5. **Configure Entities:**
    - Entity are onjects in Microsoft Sentinel which represent important information such as Ip addresses , host, users etc. 
    - Add two different identities: Account (select sid and userID) and User IP Address and other as shown in Screenshot below.
 
 ![image](https://github.com/ijlal321/Cyber-Security-Projects/assets/103317626/7b76ec83-0af5-43ca-8a7e-247048b3ad3d)
 
 
-8. **Set Query Scheduling:**
+6. **Set Query Scheduling:**
    - Choose the frequency to run the query, such as every 5 minutes.
 
-9. **Configure Incident Settings:**
+7. **Configure Incident Settings:**
    - Turn on the "Alert grouping" option to manage incident grouping.
    - We can see that up to only 150 alerts can be grouped into a single incident. if there are more than 150 then a new new incident will be created for it. 
 
-10. **Review and Create:**
+8. **Review and Create:**
     - Proceed to the review + create option and click on "Create" to finalize the creation of the analytics rule.
 
 ![image](https://github.com/ijlal321/Cyber-Security-Projects/assets/103317626/cbab47b6-3891-459a-9a4a-ebc64a298490)
+
+
+
+Here's the documentation section for creating a user account in Azure for SIEM investigation based on your provided steps:
+
+## 4. Demo: Create User Account in Azure for SIEM Investigation
+
+### Introduction
+In this demonstration, we will create a new user account in the Azure environment specifically for SIEM investigation purposes. This account will be used to simulate unusual activity for testing and analysis within Microsoft Sentinel.
+
+### Steps to Create User Account
+1. **Turn Off Security Defaults in Azure Active Directory:**
+   - Search and navigate to Microsoft Active Directory from the search bar in Azure.
+   - Go to the Properties tab and select "Manage security defaults."
+   - Turn off security defaults and provide a reason, such as testing. Save the changes.
+
+![image](https://github.com/ijlal321/Cyber-Security-Projects/assets/103317626/8352c492-61f3-4f9f-a741-3de02372071c)
+
+
+2. **Create New User in Azure:**
+   - Go to the Users section from the left tab in Azure and click on "Create new user."
+   - Provide an appropriate username, display name, and proceed to Next: Properties.
+
+![image](https://github.com/ijlal321/Cyber-Security-Projects/assets/103317626/810f3a40-7fe4-4c76-bd47-6e5b05f2b2f4)
+
+
+3. **Fill Basic Details:**
+   - Fill in all the basic details as shown in the Properties tab for the new user account.
+   - Proceed to Review + Create, and copy the user principal name and password for future use.
+
+![image](https://github.com/ijlal321/Cyber-Security-Projects/assets/103317626/2abb1753-ff30-41b4-97e8-ff692db8933e)
+
+
+4. **Assign Roles to the User:**
+   - Add Azure AD role:
+     - Click on the newly created account and navigate to Assigned roles.
+     - Click on "Add assignments" and assign the role of Security Reader.
+   - Add Azure role (Contributor):
+     - Open your Microsoft Sentinel resource group and click on Access control (IAM).
+     - Click on "Add" and select "Add role assignment."
+     - Choose "Contributor" from the role section and select the newly created user.
+     - Save the role assignment.
+
+![image](https://github.com/ijlal321/Cyber-Security-Projects/assets/103317626/28e6f7b8-8eba-4ce2-ab2c-6ef9d74eeddb)
+
+
+5. **Login Using New Account:**
+   - Open a new window and log in to the Microsoft account and Azure portal using the newly created user account.
+  
+![image](https://github.com/ijlal321/Cyber-Security-Projects/assets/103317626/fcf2dce7-025a-4b48-87e8-94d14e05ce58)
+
+
+By following these steps, you have successfully created a user account in Azure dedicated to SIEM investigation in Microsoft Sentinel. This account can be used to simulate unusual activity for testing and security analysis purposes.
+
+
+## 5. Demo Infiltrating User Account to Generate Incidents in SIEM 
+Once you got log in, you can do some infiltrations in your own, make some changes, and we will discuss tits impact on next section.
+
+
+## 6. Demo Infiltrating User Account to Generate Incidents in SIEM 
+    - Right off the bat ,we see we have about 17 new incidents, lets explore them.
+![image](https://github.com/ijlal321/Cyber-Security-Projects/assets/103317626/7c164693-dc63-49cd-a8e8-021968d75b24)
+
+    - Click on incidents, from left tab, and you will see details of all the incidents
+
+![image](https://github.com/ijlal321/Cyber-Security-Projects/assets/103317626/435a7e47-fb0b-4987-8a68-5b6f2e7f7adf)
+
+
+Sure, I'll create documentation based on the information you provided in your rough notes regarding cybersecurity incident investigation in a SIEM.
+
+## 7. Demo: How to Investigate Cybersecurity Incidents in SIEM
+
+This section outlines the steps to investigate cybersecurity incidents within a SIEM (Security Information and Event Management) system. Effective investigation is crucial for understanding the nature of incidents and identifying potential threats.
+
+### Steps to Investigate Cybersecurity Incidents
+
+1. **Access Incidents Section:**
+   - Navigate to the Incidents section in your SIEM platform.
+
+![image](https://github.com/ijlal321/Cyber-Security-Projects/assets/103317626/7f41439b-38d1-4b03-95ed-8dc27ddbf7cd)
+
+
+2. **Select Incident for Investigation:**
+   - Click on a specific incident, preferably a successful sign-in incident, from the list of incidents.
+   - On the left side of the incident view, you will see essential details about the incident, including severity, description, affected entities, timestamp, and status.
+   - Click on a event to view further details related to the incident.
+
+![image](https://github.com/ijlal321/Cyber-Security-Projects/assets/103317626/a7be89af-e49c-4de5-b314-4f07e11ee241)
+
+
+3. **Check IP Reputation on AbuseIPDB:**
+   - Copy the IP address from the incident details.
+   - Visit AbuseIPDB or a similar threat intelligence platform to check the reputation of the copied IP address.
+   - Verify if the IP address is associated with malicious activity based on community reports and ratings.
+
+![image](https://github.com/ijlal321/Cyber-Security-Projects/assets/103317626/81adf010-b1c7-4d7b-9b55-401cc96f4f26)
+
+4. **Explore Other Incidents (as needed):**
+   - Repeat the investigation process for other incidents as per the need and priority.
+
+
+## 8. Remediate Cybersecurity Incident
+
+Remediating cybersecurity incidents is crucial to mitigate risks and restore the security posture of the environment. This section outlines the steps to remediate incidents effectively within a SIEM (Security Information and Event Management) system.
+
+### Steps to Remediate Cybersecurity Incident
+
+1. **Remove Compromised Account:**
+   - Navigate to Active Directory in your management console.
+   - Go to the Users section and locate the compromised account.
+   - Click on the account and select "Edit account status."
+   - Uncheck the box for "Account enabled" to disable the compromised account.
+   - Confirm the changes to disable the account.
+  
+![image](https://github.com/ijlal321/Cyber-Security-Projects/assets/103317626/f8d978e4-28b8-4962-8c41-2527c4f0efbe)
+
+
+2. **Remediate Other Incidents (as needed):**
+   - Review other incidents listed in the Incidents page of your SIEM platform.
+   - Depending on the nature of each incident, take appropriate remediation actions:
+     - If an incident involves malicious software, quarantine affected systems and perform thorough scans.
+     - For unauthorized access incidents, change affected user credentials and review access controls.
+     - Implement security patches or updates to address vulnerabilities identified in incidents.
+     - Follow incident response procedures and guidelines specific to your organization's policies.
+
+3. **Close Solved Incidents:**
+   - Navigate to the Incidents page and review all incidents that have been resolved or mitigated.
+   - Close each resolved incident by adding comments detailing the actions taken and the resolution status.
+   - Adding comments helps maintain an audit trail and provides context for future incident analysis.
+  
+![image](https://github.com/ijlal321/Cyber-Security-Projects/assets/103317626/bbff190e-d6ac-4a36-a93c-352071a65d3d)
+
+
+4. **Document Remediation Steps:**
+   - Document the steps taken to remediate each incident, including:
+     - Details of the incident, such as severity, affected entities, and impact.
+     - Actions taken to mitigate the incident, including disabling accounts, applying patches, or implementing security measures.
+     - Comments added during incident closure for transparency and reference.
+
 
